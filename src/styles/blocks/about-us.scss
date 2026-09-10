@@ -1,5 +1,5 @@
 .about-us {
-  @include pageGrid;
+  @include page-grid;
 
   &__hours {
     display: flex;
@@ -42,11 +42,11 @@
     letter-spacing: 0;
     color: #d12d35;
 
-    @include onTablet {
+    @include on-tablet {
       grid-column: 1/4;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       grid-column: 1/6;
     }
   }
@@ -61,22 +61,22 @@
     text-align: left;
     grid-column: 1/-1;
 
-    @include onTablet {
+    @include on-tablet {
       grid-column: 1/4;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       grid-column: 1/6;
     }
   }
   &__sections {
     grid-column: 1/-1;
 
-    @include onTablet {
+    @include on-tablet {
       grid-column: 4/7;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       grid-column: 6/11;
     }
   }

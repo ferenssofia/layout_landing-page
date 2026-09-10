@@ -14,16 +14,17 @@
 
     // transform: translateY(50%);
 
-    @include onTablet {
+    @include on-tablet {
       font-size: 64px;
     }
-    @include onDesktop {
+
+    @include on-desktop {
       font-size: 80px;
     }
   }
 
   &__content {
-    // @include contentPaddingInline;
+    // @include content-padding-inline;
 
     display: flex;
     flex-direction: column;

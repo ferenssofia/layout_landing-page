@@ -19,21 +19,21 @@
     margin: 0 auto;
     max-width: 280px;
 
-    @include onTablet {
+    @include on-tablet {
       max-width: 392px;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       max-width: 325px;
     }
   }
 
-  @include onTablet {
+  @include on-tablet {
     // font-size: 48px;
     margin-bottom: 48px;
   }
 
-  @include onDesktop {
+  @include on-desktop {
     font-size: 48px;
   }
 

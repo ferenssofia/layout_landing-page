@@ -6,7 +6,7 @@
 }
 
 .now-on-view-button__wrapper {
-  @include pageGrid;
+  @include page-grid;
 }
 
 .now-on-view-button {
@@ -24,11 +24,11 @@
   background-color: #d12d35;
   color: #fff;
 
-  @include onTablet {
+  @include on-tablet {
     grid-column: 2/-2;
   }
 
-  @include onDesktop {
+  @include on-desktop {
     grid-column: 5/-5;
   }
 
@@ -39,7 +39,7 @@
 
 .now-on-view-object {
   &__photos {
-    @include pageGrid;
+    @include page-grid;
   }
 
   &__link {
@@ -47,16 +47,16 @@
     &--disapear {
       display: none;
 
-      @include onTablet {
+      @include on-tablet {
         display: block;
       }
     }
     &--wide {
-      @include onTablet {
+      @include on-tablet {
         grid-column: span 4;
       }
 
-      @include onDesktop {
+      @include on-desktop {
         grid-column: span 8;
       }
     }
@@ -64,11 +64,11 @@
       height: 0;
       padding-bottom: 100%;
 
-      @include onTablet {
+      @include on-tablet {
         grid-column: span 2;
       }
 
-      @include onDesktop {
+      @include on-desktop {
         grid-column: span 4;
       }
     }

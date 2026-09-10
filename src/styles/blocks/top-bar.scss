@@ -5,7 +5,7 @@
   justify-content: space-between;
   align-items: center;
 
-  @include onTablet {
+  @include on-tablet {
     padding: 64px 72px;
   }
 
@@ -28,7 +28,7 @@
 
     @include hover(transform, scale(1.2));
 
-    @include onTablet {
+    @include on-tablet {
       width: 87px;
       height: 65px;
     }
